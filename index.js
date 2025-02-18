@@ -42,7 +42,7 @@ for(let i = 0; i < messages.length; i++)
     const toggleBtn = document.getElementById("themeDropDown");
     const body = document.body;
 
-    toggleBtn.addEventListener("click", () => {
+    toggleBtn.addEventListener("change", () => {
       body.classList.toggle("theme-two");
     });
 
